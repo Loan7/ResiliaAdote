@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto Mono', monospace;
+    background-color: lightgrey;
 }
 
 header{
@@ -73,6 +74,22 @@ img{
     border-radius: 10px;
     border: 2px solid;
 
+}
+
+p{
+    background-color: chocolate;
+    
+    
+}
+
+footer{
+    background-color: chocolate;
+    text-align: center;
+    padding: 50px;    
+}
+
+span{
+    font-weight: bold;
 }
 
 @media (max-width:700px){
