@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    background-color: chocolate;
+    padding: 20px 40px;
+    
+}
+
+.caixa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.tituloP{
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.tituloP:hover{
+    color: lightyellow;
+}
+
+.caixa ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.caixa ul>*+*{
+margin-left: 15px;
+
+}
+
+.caixa a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.caixa a:hover{
+    color: lightyellow;
+    text-decoration: none;
+}
+
+.flex-container{
+    gap: 20px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+}
+
+.flex-card>p{
+    
+text-align: center;
+
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid;
+
+}
+
+@media (max-width:700px){
+    
+    .caixa{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .caixa ul{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .caixa ul>*+*{
+        margin-left: 0;
+        margin-top: 5px;
+        
+    }
+}
